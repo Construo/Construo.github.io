@@ -1,0 +1,171 @@
+BODY { 
+  color: black;
+  background: rgb(0,0,0);
+  margin: 20px 50px 50px 50px;
+  /*	text-align: justify; */
+}
+
+#body { 
+  background: #004f4f;
+  color: white;
+  padding: 0.5em 1em 0.5em 1em;
+  max-width: 60em;
+  margin-left: auto;
+  margin-right: auto;
+
+  border-style: solid;
+  border-color: #0aa;
+  border-width: 2px;
+}
+
+#nav { 
+  margin-left: auto;
+  margin-right: auto;
+  width: 60em;
+  text-align: center;
+  font-size: smaller;
+}
+
+#nav>ul {
+  display: inline;
+}
+
+#nav>ul>li {
+  display: inline;
+}
+
+.screenshots>ul { 
+  padding: 0px;
+  width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.screenshots>ul>li { 
+  list-style-type: none;
+  display: inline;
+}
+
+#nav a { 
+  display: inline-block;
+  padding: 0.25em 1em;
+  margin: 0em 1em;
+  border-style: solid solid none solid;
+  border-width: thin;
+  border-color: #0aa;
+}
+
+div.section { 
+  display: block;
+  /*background-color: #0aa;*/
+  color: white;
+}
+
+div.sectionbody { 
+  padding: 0em 2em;
+}
+
+#footer { 
+  font-size: smaller;
+  border-color: cyan;
+  border-top-style: solid;
+  border-top-width: thin;
+  padding: 0em 2em;
+}
+
+a { 
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover { 
+/*  text-decoration: underline;*/
+  background-color: #0aa;
+  color: white;
+  text-shadow: #000 0px 2px 0px;
+}
+
+a:visited { 
+  color: white;
+}
+
+DIV.menu {
+  font-size: 0.8em;
+  font-family: sans-serif;
+  text-align: center;
+  background:	rgb(220,220,220); 
+  border:	        solid thin;
+  padding:	0.2em;
+  text:           width;
+  margin: 0px 0px 0px 0px;
+}
+
+H1 {
+  font-family: monospace;
+  color: cyan;
+  background-color: black;
+}
+
+H2,H3,H4,H5,H6 {
+  display: block;
+  margin-bottom: .5em;
+  font-family: monospace;
+  padding-left: 20px;
+  background-color: #bbbbbb;
+
+  color: white;
+  background-color: black;
+
+  border-color: #0aa;
+  border-style: solid;
+  border-width: 2px;
+}
+
+DL.news {
+  font-sive:      0.5em;
+}
+
+TD.news {
+  color:		black;
+  background:	lightgrey;
+  font-sive:      0.5em;
+}
+
+TH.news {
+  font-family:	sans-serif;
+  text-align:	center;
+  color:		white;
+  background:	darkgrey;
+  font-sive:      0.5em;
+}
+
+DIV.shell {
+  border:		solid thin;
+  font-size:	1.0em;
+  font-family:	monospace;
+  padding:	0.3em;
+  background:	rgb(220,220,220); 
+}
+
+UL.sitebar {
+  font-family: "helvetica", sans-serif;
+  font-size:	1.2em;
+}
+
+TT.command {
+  color: green;
+}
+
+TT.key {
+  color: blue;
+}
+
+TT.file {
+  color: red;
+}
+
+SMALL.grey {
+  color:          rgb(150,150,150);
+}
